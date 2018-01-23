@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Pocket Bazar an E-Commerce online Shopping & Services Platform| Home</title>
+    <!-- Styles1.css sheet for Search Bar -->
+    <link href="css/styles1.css" rel='stylesheet' type="text/css" />
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
@@ -113,14 +115,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="logo">
                 <a href="http://pocketbazar.in"><img src="images/logo.jpg" class="img-responsive" alt=""/></a>
             </div>
-            <div class="search">
-                <div class="search2">
-                    <form>
-                        <input type="submit" value="">
-                        <input type="text" value="Search for a Product, Service or Information" onfocus="this.value = '';"
-                               onblur="if (this.value == '') {this.value = 'Search for a product, category or brand';}"/>
-                    </form>
-                </div>
+            <div id="header-search" class="skip-content">
+                <form id="search_mini_form" action="http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/result/" method="get">
+                    <div class="input-box">
+                        <label for="search">Search:</label>
+                        <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Search entire store here..." autocomplete="off">
+                        <button type="submit" title="Search" class="button search-button">
+                            <span><span>Search</span></span></button>
+                    </div>
+
+                    <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        var searchForm = new Varien.searchForm('search_mini_form', 'search', '');
+                        searchForm.initAutocomplete('http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                        //]]>
+                    </script>
+                </form>
             </div>
             <div class="clearfix"></div>
         </div>
@@ -1602,6 +1613,53 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     </div>
 </div>
+<!--<div class="grid_4 latest_offer">-->
+    <!--<div class="container">-->
+        <!--<div class="content">-->
+            <!--<ul id="stack_yuda" class="stack stack&#45;&#45;yuda">-->
+                <!--<li class="stack__item">-->
+                    <!--<h3>In Spotlight</h3>-->
+                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/f/i/fitbit_1_1.jpg" alt="Tree 1" />-->
+                    <!--<div class="content-inner">-->
+                        <!--<p>Bingo Black U8 Bluetooth Watch</p>-->
+                        <!--<span>50 % off</span>-->
+                    <!--</div>-->
+                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/hollow-pu.html" title="order Now" class="button">Shop Now</a>-->
+                <!--</li>-->
+                <!--<li class="stack__item">-->
+                    <!--<h3>In Spotlight</h3>-->
+                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/c/a/camera4_1.jpg" alt="Tree 1" />-->
+                    <!--<div class="content-inner">-->
+                        <!--<p>Canon DSLR 550D Camera with Lens</p>-->
+                        <!--<span>Flash sale</span>-->
+                    <!--</div>-->
+                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/na9325sm02.html" title="order Now" class="button">Shop Now</a>-->
+                <!--</li>-->
+                <!--<li class="stack__item">-->
+                    <!--<h3>In Spotlight</h3>-->
+                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/h/e/helicopter_1.jpg" alt="Tree 1" />-->
+                    <!--<div class="content-inner">-->
+                        <!--<p>Toyhouse Metal Helicopter 3 Channel Infrared Remote Control with Gyroscope n LED Lights for Indoor (Red)</p>-->
+                        <!--<span>40% off</span>-->
+                    <!--</div>-->
+                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/featherlite-astro-office.html" title="order Now" class="button">Shop Now</a>-->
+                <!--</li>-->
+                <!--<li class="stack__item">-->
+                    <!--<h3>In Spotlight</h3>-->
+                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/b/a/bag.jpg" alt="Tree 1" />-->
+                    <!--<div class="content-inner">-->
+                        <!--<p>Adidas Backpack  (Night Shade/Ne.Green)</p>-->
+                        <!--<span>New year sale</span>-->
+                    <!--</div>-->
+                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/ana-digi-watch.html" title="order Now" class="button">Shop Now</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+            <!--<div class="controls">-->
 
+                <!--<button class="button button&#45;&#45;sonar button&#45;&#45;accept" data-stack="stack_yuda">Next</button>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 </body>
 </html>
