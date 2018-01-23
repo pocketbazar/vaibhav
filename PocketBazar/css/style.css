@@ -171,6 +171,7 @@ i.cart{
 }
 .top-menu{
 	float:right;
+	margin-left: -10px;
 }
 .top-menu ul li{
 	display:inline-block;
@@ -220,7 +221,7 @@ i.arrow{
 	display:inline-block;
 	cursor:pointer;
 	vertical-align: middle;
-	margin-left:20px;
+	margin-left:7px;
 }
 .banner {
 	padding: 0;
@@ -2630,7 +2631,7 @@ p.comment-form-author {
 }
 .contact-form input[type="text"] {
 	padding: 10px;
-	width: 95%;
+	width: 70%;
 	color: #9198A3;
 	font-size: 0.9em;
 	background: #fff;
@@ -2641,7 +2642,7 @@ p.comment-form-author {
 .contact-form textarea {
 	padding: 10px;
 	display: block;
-	width: 95%;
+	width: 70%;
 	background: #fff;
 	border: 1px solid #eee;
 	outline: none;
