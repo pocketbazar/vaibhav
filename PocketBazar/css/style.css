@@ -1108,6 +1108,12 @@ i.linkedin{
 	font-weight : normal;
 	margin-top: 1em;
 }
+.header-bottom {
+	/*display: inline-block;*/
+	/*vertical-align: middle;*/
+	display: flex;
+	align-items: center;
+}
 .images_1_of_4  p {
 	font-size:0.8125em;
 	padding:0.4em 0;
@@ -1558,7 +1564,15 @@ h3.page-hed{
 	padding: 0 25px;
 }
 .cus_info_wrap input[type="text"] {
-	width: 71%;
+	width: 60%;
+	padding: 4px;
+	font-size: 13px;
+	font-weight: 400;
+	border:1px solid #D6D6D6;
+	outline:none;
+}
+.cus_info_wrap input[type="password"] {
+	width: 60%;
 	padding: 4px;
 	font-size: 13px;
 	font-weight: 400;
@@ -1601,6 +1615,7 @@ h3.page-hed{
 	float: left;
 	margin-bottom: 0.5em;
 	text-decoration:none;
+	margin-left: 0.7em;
 }
 .forgetit input[type="text"] {
 	width: 71%;
@@ -1624,8 +1639,19 @@ h3.page-hed{
 	width: 38%;
 }
 .botton1 {
-	margin-right: 5.8em;
 	margin-top:1.5em;
+	margin-bottom: 23px;
+}
+.cus_info_wrap textarea {
+	min-width: 60%;
+	max-width: 60%;
+	min-height: 64px;
+	max-height: 100px;
+	padding: 4px;
+	font-size: 13px;
+	font-weight: 400;
+	border: 1px solid #D6D6D6;
+	outline: none;
 }
 .labelTop {
 	display: block;
@@ -1633,7 +1659,7 @@ h3.page-hed{
 	text-align: left;
 	color: #444;
 	float: left;
-	width: 29%;
+	width: 40%;
 }
 .reg_gp {
 	display: block;
@@ -2291,9 +2317,10 @@ section#main {
 	font-size: 0.85em;
 	color: #555;
 	margin-top: -17px;
-	width: 90%;
+	width: 84%;
 }
 .checkbox:last-child {
+	margin-top: -0.9em;
 	margin-bottom: 0;
 }
 .news-letter {
@@ -2846,7 +2873,7 @@ p.back{
 		min-height: 352px;
 	}
 	.login-signup-form {
-		width: 90%;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 1280px) {
@@ -3195,7 +3222,7 @@ padding: 25px 2em 25px 11px;
 }
 .cus_info_wrap {
 margin-bottom: 15px;
-padding: 0 15px;
+padding: 0 12px;
 }
 .cus_info_wrap input[type="text"] {
 width: 69%;}
@@ -3835,6 +3862,7 @@ width: 100%;
 	.header-left ul li p, .header-left ul li a, .header-right ul li a {
 		font-size: 13px;
 	}
+
 	.header-left {
 		margin: 0px 0 2px 0;
 	}
