@@ -92,7 +92,7 @@ label{
 	font-family: 'Open Sans', sans-serif;
 }
 .header-right ul  li.login {
-	padding: 0em 4.5em 0 0;
+	
 }
 i.user{
 	width:30px;
@@ -1600,7 +1600,7 @@ h3.page-hed{
 }
 .sign-up.text-center {
 	border: 1px solid #D6D6D6;
-	border-left:none;
+	margin-left: -1px;
 	padding: 2em 0 0 0;
 	min-height: 456px;
 	width: 38%;
@@ -2318,6 +2318,7 @@ section#main {
 	color: #555;
 	margin-top: -17px;
 	width: 84%;
+	font-weight: bold;
 }
 .checkbox:last-child {
 	margin-top: -0.9em;

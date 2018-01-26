@@ -116,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <a href="http://pocketbazar.in"><img src="images/logo.jpg" class="img-responsive" alt=""/></a>
             </div>
             <div id="header-search" class="skip-content">
-                <form id="search_mini_form" action="http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/result/" method="get">
+                <form id="search_mini_form" action="" method="get">
                     <div class="input-box">
                         <label for="search">Search:</label>
                         <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Search for a Product, Service or Information" autocomplete="off">
@@ -124,13 +124,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <span><span>Search</span></span></button>
                     </div>
 
-                    <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
-                    <script type="text/javascript">
-                        //<![CDATA[
-                        var searchForm = new Varien.searchForm('search_mini_form', 'search', '');
-                        searchForm.initAutocomplete('http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/ajax/suggest/', 'search_autocomplete');
-                        //]]>
-                    </script>
+                    <div id="search_autocomplete" class="search-autocomplete" style="display: block;"></div>
                 </form>
             </div>
             <div class="clearfix"></div>
@@ -1373,8 +1367,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             Mobile Number:
                             <span class="require">*</span>
                         </label>
-                        <input type="text" minlength="10" maxlength="10" value="" placeholder="Enter 10-digit mobile number" onfocus="this.placeholder = ''"
-                               onblur="this.placeholder = 'Enter 10-digit mobile number'">
+                        <script type="text/javascript" src="js/number.js"></script>
+                        <input type="text" id="edit1" value="" size="10" maxlength="10" placeholder="Enter 10-digit mobile number" onfocus="this.placeholder = ''"
+                               onblur="this.placeholder = 'Enter 10-digit mobile number'"/>
+                 <!--<input type="text" minlength="10" maxlength="10" value="" placeholder="Enter 10-digit mobile number" onfocus="this.placeholder = ''"-->
+                               <!--onblur="this.placeholder = 'Enter 10-digit mobile number'">-->
                     </div>
                     <div class="clearfix"></div>
                     <div class="cus_info_wrap">
@@ -1448,8 +1445,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </label>
                         <textarea rows="3" cols="50" placeholder="Enter your full address"onfocus="this.placeholder = ''"
                                   onblur="this.placeholder = 'Enter your full address'"></textarea>
-                        <!--<input type="text" value="" placeholder="Enter your full address" onfocus="this.placeholder = ''"-->
-                               <!--onblur="this.placeholder = 'Enter your full address'">-->
                     </div>
                     <div class="clearfix"></div>
                     <div class="cus_info_wrap">
