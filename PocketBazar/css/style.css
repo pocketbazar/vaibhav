@@ -893,19 +893,19 @@ i.linkedin{
 }
 .help a{
 	text-transform:uppercase;
-	color:#fff;
-	padding:8px 18px;
-	background:#3498db;
+	color:#3498db;
+	padding:9px 18px;
+	background:#fff;
 	text-decoration:none;
 	font-size:15px;
-	font-weight:600;
+	font-weight:700;
 	font-family: 'Open Sans', sans-serif;
-	border:1px solid #3498db;
+	border:2px solid #3498db;
 }
 .help a:hover{
 	border:2px solid #3498db;
-	background:#fff;
-	color:#3498db;
+	background:#3498db;
+	color:#fff;
 }
 .help p{
 	margin-bottom:1.45em;
@@ -3207,91 +3207,93 @@ padding: 1em 0 0 0;
 		width: 100%;
 	}
 	section#main {
-padding: 2em;}
-.reg_fb i {
-padding: 5px 4px;
-font-size: 1em;
-}
-.how_to {
-background: #F8F8F8;
-padding: 0.7em 1em;}
-.labelTop {
-width: 31%;
-}
-.forgetit {
-padding: 25px 2em 25px 11px;
-}
-.cus_info_wrap {
-margin-bottom: 15px;
-padding: 0 12px;
-}
-.cus_info_wrap input[type="text"] {
-width: 69%;}
-.checkbox {
-width: 80%;
-
-}
-.checkbox i {
-position: absolute;
-bottom: 8px;
-left: 43px;}
-.login.text-center {
-min-height: 456px;
-width: 100%;
-margin-bottom: 2em;
-}
-.sign-up{
-	width: 100%;
-}
-.sign-up.text-center {
-border-left: 1px solid #D6D6D6;
-min-height: 256px;
-width: 100%;
-margin-bottom:2em;
-}
-.reg_gp i {
-padding: 7px 10px 0 0;
-font-size: 1em;}
-.benefits {
-padding: 10px 10px 10px;
-background: #F6F6F6;
-width: 100%;
-margin-left: 0%;
-}
-.login-signup-form {
-width: 62%;
-}
-.checkbox i {
-position: absolute;
-bottom: 8px;
-left: 93px;
-}
-.checkbox {
-width: 90%;
-}
-.forgetit input[type="text"] {
-width: 82%;}
-.checkbox i {
-position: absolute;
-bottom: 8px;
-left: 156px;
-}
-p.required {
-font-size: 10px;
-text-align: right;
-color: #ff0000;
-margin: 0;
-}
+		padding: 2em;
+	}
+	.reg_fb i {
+		padding: 5px 4px;
+		font-size: 1em;
+	}
+	.how_to {
+		background: #F8F8F8;
+		padding: 0.7em 1em;
+	}
+	.labelTop {
+		width: 41%;
+	}
+	.forgetit {
+		padding: 25px 2em 25px 11px;
+	}
+	.cus_info_wrap {
+		margin-bottom: 15px;
+		padding: 0 12px;
+	}
+	.cus_info_wrap input[type="text"] {
+		width: 59%;
+	}
+	.cus_info_wrap input[type="password"] {
+		width: 59%;
+	}
+	.cus_info_wrap textarea{
+		min-width: 59%;
+		max-width: 59%;
+	}
+	.checkbox {
+		width: 80%;
+	}
+	.checkbox i {
+		position: absolute;
+		bottom: 8px;
+		left: 69px;
+	}
+	.login.text-center {
+		min-height: 456px;
+		width: 100%;
+		margin-bottom: 2em;
+	}
+	.sign-up{
+		width: 100%;
+	}
+	.sign-up.text-center {
+		border-left: 1px solid #D6D6D6;
+		min-height: 256px;
+		width: 100%;
+		margin-bottom:2em;
+	}
+	.reg_gp i {
+		padding: 7px 10px 0 0;
+		font-size: 1em;
+	}
+	.benefits {
+		padding: 10px 10px 10px;
+		background: #F6F6F6;
+		width: 100%;
+		margin-left: 0%;
+	}
+	.login-signup-form {
+		width: 62%;
+	}
+	.checkbox {
+		width: 80%;
+	}
+	.forgetit input[type="text"] {
+		width: 82%;
+	}
+	p.required {
+		font-size: 10px;
+		text-align: right;
+		color: #ff0000;
+		margin: 0;
+	}
 }
 @media screen and (max-width: 800px) {
-.forgetit input[type="text"] {
-width: 75%;
-}
-.checkbox i {
-position: absolute;
-bottom: 8px;
-left: 94px;
-}
+	.forgetit input[type="text"] {
+		width: 75%;
+	}
+	.checkbox i {
+		position: absolute;
+		bottom: 8px;
+		left: 60px;
+	}
 	.wrap {
 		width: 95%;
 	}

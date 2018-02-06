@@ -60,7 +60,12 @@
     color: black;
 }
 
-.modal-body {padding: 2px 16px;}
+.modal-body {
+    padding: 2px 16px; !important;
+    overflow-y: scroll;
+    overflow-x: auto;
+    max-height: 400px;
+}
 
 .modal-footer {
     padding: 2px 16px;

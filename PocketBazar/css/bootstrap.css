@@ -571,6 +571,8 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: justify;
+  font-weight: lighter;
 }
 ul ul,
 ol ul,
