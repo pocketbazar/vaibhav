@@ -463,15 +463,15 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .best-sellers{
 	background:#000;
-	padding: 2.5em 2em;
+	padding: 1.2em 2em;
 }
 .best-sellers-head{
 	float:left;
 	margin-right: 10%;
 }
 .best-sellers-menu{
-	float:left;
-	margin-top: 10px;
+	float:right;
+	margin-top: 7px;
 }
 .best-sellers-menu ul li{
 	display:inline-block;
@@ -481,22 +481,22 @@ ul.callbacks_tabs.callbacks2_tabs {
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
-	font-size:2.5em;
+	font-size:2.2em;
 	font-weight:700;
 }
 .best-sellers-menu ul li a {
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.1em;
-	text-transform: uppercase;
+	text-transform: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:600;
 	padding: 10px 20px;
 	border: 2px solid #000;
 }
 .best-sellers-menu ul li a.active{
-	color:#3498db;
-	border: 2px solid #3498db;
+	color:#fff;
+	border: 2px solid #fff;
 	border-radius: 25px;
 }
 .best-sellers-menu ul li a:hover{

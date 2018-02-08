@@ -1,5 +1,5 @@
 var tnc = function () {
-    this.modal = null; // # because its an id
+    //this.modal = null; // # because its an id
     // Get the button that opens the modal
     this.btn = null;
     // Get the <span> element that closes the modal
@@ -19,8 +19,6 @@ var tnc = function () {
             '                                    <h2 style="text-align: center">Terms & Conditions</h2>\n' +
             '                                </div>\n' +
             '                                <div class="modal-body">\n' +
-            // '                                <iframe src="https://docs.google.com/document/d/e/2PACX-1vSpwcX_EjCKy3R0m5_SSnjA8DE_UhcfFRs29B4rGjkcWWBhllw-ySuuxAn5QohCc3Z68_mbtZiGjYwI/pub?embedded=true">\n' +
-            // '                                </iframe>\n' +
             '                                    <p style="text-align: justify">PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING OR REGISTERING ON THE WEBSITE OR ACCESSING ANY MATERIAL, INFORMATION OR SERVICES THROUGH THE WEBSITE. IF YOU DO NOT AGREE WITH THESE TERMS OF USE, PLEASE DO NOT USE THE WEBSITE.</p>\n' +
             '                                    <br>\n' +
             '                                    <ol type="1">\n' +
@@ -53,7 +51,7 @@ var tnc = function () {
         $('body').append(modal); // when selecting any tags we dont use any selector just the tag like body
 
         // we sould add the selectors after the html (i.e. modal) is in the body
-        this.btn = $("#tncBtn");
+        this.btn = $(".tncBtn");
         this.span = $("#closeTnc");
         this.addEventListeners();
     };
