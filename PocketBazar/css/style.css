@@ -1563,6 +1563,14 @@ h3.page-hed{
 	margin-bottom: 15px;
 	padding: 0 25px;
 }
+.cus_info_wrap select {
+	font-size: 13px;
+	width: 60%;
+	font-weight: 400;
+	padding: 4px;
+	border: 1px solid #D6D6D6;
+	outline: none;
+}
 .cus_info_wrap input[type="text"] {
 	width: 60%;
 	padding: 4px;
@@ -2406,7 +2414,7 @@ div.register-bottom-grid {
 	padding:5% 16em;
 }
 .left_content{
-	width: 73%;
+	width: 100%;
 	float: right;
 	margin-left: 5%;
 }
@@ -2441,7 +2449,7 @@ div.register-bottom-grid {
 .desc1 h5{
 	margin-top: 2%;
 	font-size: 1.5em;
-	color: #3498db;
+	color: darkred;
 	line-height: 1.5em;
 	text-shadow: 0 1px 0 #ffffff;
 }
@@ -3228,6 +3236,9 @@ padding: 1em 0 0 0;
 		padding: 0 12px;
 	}
 	.cus_info_wrap input[type="text"] {
+		width: 59%;
+	}
+	.cus_info_wrap select {
 		width: 59%;
 	}
 	.cus_info_wrap input[type="password"] {
@@ -4192,6 +4203,9 @@ width: 34%;
 .cus_info_wrap input[type="text"] {
 width: 65%;
 }
+.cus_info_wrap select  {
+width: 65%;
+}
 .checkbox i {
 position: absolute;
 bottom: 8px;
@@ -4208,4 +4222,10 @@ margin-top: 4px;
 }
 .how_to p {
 font-size: 10px;}
+}
+.a-color-secondary {
+	color: #555; !important;
+}
+.a-text-strike {
+	text-decoration-line: line-through; !important;
 }

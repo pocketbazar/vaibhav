@@ -55,13 +55,13 @@
 }
 
 .modal-header {
-    padding: 2px 16px;
+    /*padding: 2px 16px;*/
     background-color: white;
     color: black;
 }
 
 .modal-body {
-    padding: 2px 16px; !important;
+    /*padding: 2px 16px; !important;*/
     overflow-y: scroll;
     overflow-x: auto;
     max-height: 400px;
