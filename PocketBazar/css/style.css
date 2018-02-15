@@ -2466,6 +2466,7 @@ div.register-bottom-grid {
 	font-size: 0.9em;
 	color: #555555;
 	line-height: 1.8em;
+	margin-top: 10px;
 }
 .filter-by-color {
 	margin-top: 25px;
@@ -2616,6 +2617,9 @@ div.register-bottom-grid {
 }
 .btn_form{
 	float: left;
+}
+.btn_form_pad form input[type="submit"] {
+	padding: 8px 14px !important;
 }
 .btn_form form input[type="submit"]{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -3739,8 +3743,13 @@ margin: 0;
 	.desc1 p {
 		font-size: 1em;
 		line-height: 1.7em;
-		height: 50px;
+		height: 100px;
 		overflow: hidden;
+		margin-top: 10px;
+	}
+	.btn_form_pad form input[type="submit"] {
+		font-size: 1.1em;
+		padding: 6px 8px !important;
 	}
 	.btn_form form input[type="submit"] {
 		font-size: 1.1em;

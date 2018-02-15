@@ -21,7 +21,6 @@ var schart = function () {
             '                                <div class="modal-body">\n' +
             '                                   <img src="/PocketBazar/images/discount-img.png">\n' +
             // '                                    <p style="text-align: justify">PLEASE READ THESE TERMS OF USE CAREFULLY BEFORE USING OR REGISTERING ON THE WEBSITE OR ACCESSING ANY MATERIAL, INFORMATION OR SERVICES THROUGH THE WEBSITE. IF YOU DO NOT AGREE WITH THESE TERMS OF USE, PLEASE DO NOT USE THE WEBSITE.</p>\n' +
-            // '                                    <br>\n' +
             '                                </div>\n' +
             // '                                <div class="modal-footer">\n' +
             // '                                    <h3>Modal Footer</h3>\n' +
