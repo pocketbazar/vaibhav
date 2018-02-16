@@ -3700,7 +3700,7 @@ margin: 0;
 		float: left !important;
 		padding: 0.6em !important;
 		color: #fff;
-		font-size: 1.4em;
+		font-size: 1.1em;
 		margin-bottom: 10px;
 	}
 	i.heart {
@@ -3884,9 +3884,9 @@ margin: 0;
 }
 }
 @media screen and (max-width: 480px) {
-.login-signup-form {
-width: 100%;
-}
+	.login-signup-form {
+		width: 100%;
+	}
 	.cards.text-center img {		
 		width: 100%;
 	}
@@ -3897,10 +3897,10 @@ width: 100%;
 		width: 35%;
 	}
 	i.cart-1 {
-		margin: 0 3px 0 7.89em;
+		margin: 0 3px 0 2.2em;
 	}
 	i.heart {
-		margin: 0 4px 0 6.6em;
+		margin: 0 4px 0 1.1em;
 	}
 	.different-products ul li a {
 		font-size: 12px;
