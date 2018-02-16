@@ -504,6 +504,46 @@ ul.callbacks_tabs.callbacks2_tabs {
 	border: 2px solid;
 	border-radius: 25px;
 }
+.other-products{
+	background:#000;
+	padding: 1.2em 2em;
+}
+.other-products-head{
+	float:left;
+	margin-right: 10%;
+}
+.other-products-menu{
+	float:right;
+}
+.other-products-menu ul li{
+	display:inline-block;
+	margin: 0 2.5em;
+}
+.other-products-head h3 {
+	color: #fff;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.5em;
+	font-weight:lighter;
+}
+.other-products-menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	text-transform: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	padding: 6px 14px;
+	border: 2px solid #000;
+}
+.other-products-menu ul li a.active{
+	border-radius: 25px;
+}
+.other-products-menu ul li a:hover{
+	color:#3498db;
+	border: 2px solid;
+	border-radius: 25px;
+}
 .product-item a h3 {
 	text-transform: uppercase;
 	font-size: 2.4em;
@@ -744,13 +784,19 @@ i.go{
 	border: 1px solid #DDD;
 	padding: 20px 13px 40px 19px;
 }
+.ipad ul li a:hover{
+	border-bottom: 2px solid #3498db;
+
+}
+
 .ipad h4 {
 	color: #000000;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-size: 1.3em;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 	margin-top:1.5em;
+	text-align: center;
 }
 .ipad h3 {
 	color: #3498db;
@@ -772,12 +818,11 @@ i.go{
 	color: #3498db;
 }
 i.cart-1 {
-	width: 20px;
-	height: 20px;
+	width: 21px;
+	height: 21px;
 	background: url('../images/img-sprite.png') no-repeat -42px -31px;
 	display: inline-block;
 	cursor: pointer;
-	vertical-align: middle;
 	margin: 0 3px 0 2em;
 }
 i.heart {
@@ -997,7 +1042,7 @@ i.linkedin{
 
 /*-- mobiles-page-starts-here --*/
 .main {
-	padding: 2em 2em;
+	padding-top: 2em;
 	background: #fff;
 	border: 1px solid #B9B9B9;
 	margin-bottom: 2em;
@@ -2531,6 +2576,8 @@ div.register-bottom-grid {
 }
 .span_1_of_left{
 	margin-bottom:5em;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 /* start available */
 .available {
@@ -2923,6 +2970,12 @@ p.back{
 	.best-sellers {
 		padding: 2em 2em;
 	}
+	.other-products-head h3 {
+		font-size: 1.5em;
+	}
+	.other-products {
+		padding: 2em 2em;
+	}
 	.navigation-strip h4 {
 		font-size: 1.15em;
 		margin-top: 3px;
@@ -3056,6 +3109,12 @@ padding: 1em 0 0 0;
 	.best-sellers-menu ul li a {
 		font-size: 1em;
 	}
+	.other-products-menu ul li {
+		margin: 0 0.5em;
+	}
+	.other-products-menu ul li a {
+		font-size: 1em;
+	}
 	.nbs-flexisel-nav-left {
 		left: -3.5em;
 	}
@@ -3064,7 +3123,7 @@ padding: 1em 0 0 0;
 	}
 	.ipad {
 		width: 90%;
-		padding: 13px 5px 50px 10px;
+		padding: 13px 10px 50px 10px;
 	}
 	i.heart {
 		margin: 0 4px 0 0em;
@@ -3350,10 +3409,10 @@ padding: 1em 0 0 0;
 		width: 100%;
 	}
 	i.cart-1 {
-		margin: 0 3px 0 2em;
+		margin: 0 3px 0 37px;
 	}
 	i.heart {
-		margin: 0 4px 0 1em;
+		margin: 0 4px 0 1.6em;
 	}
 	.best-sellers-head h3 {
 		font-size: 1.9em;
@@ -3367,6 +3426,16 @@ padding: 1em 0 0 0;
 	}
 	.best-sellers {
 		padding: 1.8em 1em;
+	}
+	.other-products-head h3 {
+		font-size: 1.4em;
+	}
+	.other-products-menu ul li a {
+		font-size: 0.9em;
+		padding: 7px 10px;
+	}
+	.other-products {
+		padding: 1.2em 1em;
 	}
 	.product-item {
 		width: 33.333%;
@@ -3495,7 +3564,7 @@ padding: 1em 0 0 0;
 		margin-bottom: 1em;
 	}
 	.main {
-		padding: 1.5em 1em;
+		padding: 1.5em 0;
 	}
 	.images_1_of_4 {
 		padding: 1.5% 1.5%;
@@ -3625,10 +3694,17 @@ margin: 0;
 }
 @media screen and (max-width: 640px) {
 	i.cart-1 {
-		margin: 0 3px 0 3.65em;
+		margin: 0 3px 0 2.4em;
+	}
+	.up_pres {
+		float: left !important;
+		padding: 0.6em !important;
+		color: #fff;
+		font-size: 1.4em;
+		margin-bottom: 10px;
 	}
 	i.heart {
-		margin: 0 4px 0 2.5em;
+		margin: 0 4px 0 1.25em;
 	}
 	.best-sellers-head h3 {
 		font-size: 1.6em;
@@ -3641,6 +3717,19 @@ margin: 0;
 		padding: 6px 10px;
 	}
 	.best-sellers-menu ul li {
+		margin: 0 0.3em;
+	}
+	.other-products-head h3 {
+		font-size: 1.4em;
+	}
+	.other-products-head {
+		margin-right: 5%;
+	}
+	.other-products-menu ul li a {
+		font-size: 0.875em;
+		padding: 6px 10px;
+	}
+	.other-products-menu ul li {
 		margin: 0 0.3em;
 	}
 	.new-arrival-head h3 {
@@ -3842,6 +3931,12 @@ width: 100%;
 		display: none;
 	}
 	.best-sellers {
+		padding: 1.2em 1em;
+	}
+	.other-products-menu {
+		display: none;
+	}
+	.other-products {
 		padding: 1.2em 1em;
 	}
 	.product-item h3 {
@@ -4237,4 +4332,12 @@ font-size: 10px;}
 }
 .a-text-strike {
 	text-decoration-line: line-through; !important;
+}
+.up_pres {
+	float: right;
+	background-color:  #3498db;
+	padding: 0.8em;
+	border: 2px solid #349;
+	color: #fff;
+	border-radius: 20px;
 }
