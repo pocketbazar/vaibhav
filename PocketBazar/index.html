@@ -53,7 +53,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             $("#flexiselDemo").flexisel({
                 visibleItems: 5,
                 animationSpeed: 1000,
-                autoPlay: false,
+                autoPlay: true,
                 autoPlaySpeed: 3000,
                 pauseOnHover: true,
                 enableResponsiveBreakpoints: true,
@@ -80,20 +80,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!-- header-section-starts -->
 <div class="header">
-    <div class="top-header">
+    <div class="top-header" style="margin-bottom: 5px;">
         <div class="wrap">
             <div class="header-left">
-                <ul>
-                    <li><a href="#">24x7 Customer Care </a></li>
-                    |
-                    <li><a href="order.html"> Track Order</a></li>
-                </ul>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.jpg" class="img-responsive" alt=""/></a>
+                </div>
             </div>
             <div class="header-right">
                 <ul>
                     <li>
                         <i class="user"></i>
-                        <a href="account.html">My Account</a>
+                        <a href="userlogin.html">My Account</a>
                     </li>
                     <li class="login">
                         <i class="lock"></i>
@@ -105,42 +103,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </li>
                     <li class="last">5</li>
                 </ul>
-                <!--<div class="sign-up-right">-->
-                    <!--<a href="userlogin.html">Sign Up</a>-->
-                <!--</div>-->
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
-    <div class="wrap">
+    <div class="wrap" style="margin-bottom: 5px;">
         <div class="header-bottom">
-            <div class="logo">
-                <a href="index.html"><img src="images/logo.jpg" class="img-responsive" alt=""/></a>
-            </div>
             <div id="header-search" class="skip-content">
-                <form id="search_mini_form" action="http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/result/" method="get">
+                <form id="search_mini_form" action="">
                     <div class="input-box">
                         <label for="search">Search:</label>
                         <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="Search for a Product, Service or Information" autocomplete="off">
                         <button type="submit" title="Search" class="button search-button">
-                            <span><span>Search</span></span></button>
+                            <span class="disp">
+                                Search
+                            </span>
+                        </button>
                     </div>
 
                     <div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
-                    <!--<script type="text/javascript">-->
-                        <!--//<![CDATA[-->
-                        <!--var searchForm = new Varien.searchForm('search_mini_form', 'search', '');-->
-                        <!--searchForm.initAutocomplete('http://apptha-demo.com/extensions/marketplace/market-ace/catalogsearch/ajax/suggest/', 'search_autocomplete');-->
-                        <!--//]]>-->
-                    <!--</script>-->
                 </form>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
-</div>
-<!-- header-section-ends -->
-<div class="wrap">
     <div class="navigation-strip">
         <h4>Shop By Categories<i class="arrow"></i></h4>
         <div class="top-menu">
@@ -522,95 +508,95 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </li>
                 <!--<li><a class="color6" href="#">watches</a>-->
-                    <!--<div class="megapanel">-->
-                        <!--<div class="row">-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>shop</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">new arrivals</a></li>-->
-                                        <!--<li><a href="products.html">men</a></li>-->
-                                        <!--<li><a href="products.html">women</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">brands</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>help</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>my company</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>account</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">login</a></li>-->
-                                        <!--<li><a href="products.html">create an account</a></li>-->
-                                        <!--<li><a href="products.html">create wishlist</a></li>-->
-                                        <!--<li><a href="products.html">my shopping bag</a></li>-->
-                                        <!--<li><a href="products.html">brands</a></li>-->
-                                        <!--<li><a href="products.html">create wishlist</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>my company</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>popular</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">new arrivals</a></li>-->
-                                        <!--<li><a href="products.html">men</a></li>-->
-                                        <!--<li><a href="products.html">women</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="row">-->
-                            <!--<div class="col2"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
+                <!--<div class="megapanel">-->
+                <!--<div class="row">-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>shop</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">new arrivals</a></li>-->
+                <!--<li><a href="products.html">men</a></li>-->
+                <!--<li><a href="products.html">women</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">brands</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>help</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>my company</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>account</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">login</a></li>-->
+                <!--<li><a href="products.html">create an account</a></li>-->
+                <!--<li><a href="products.html">create wishlist</a></li>-->
+                <!--<li><a href="products.html">my shopping bag</a></li>-->
+                <!--<li><a href="products.html">brands</a></li>-->
+                <!--<li><a href="products.html">create wishlist</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>my company</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>popular</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">new arrivals</a></li>-->
+                <!--<li><a href="products.html">men</a></li>-->
+                <!--<li><a href="products.html">women</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                <!--<div class="col2"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--</div>-->
+                <!--</div>-->
                 <!--</li>-->
                 <li><a class="color8" href="#">Services</a>
                     <div class="megapanel">
@@ -795,95 +781,95 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </li>
                 <!--<li><a class="color10" href="#">perfumes</a>-->
-                    <!--<div class="megapanel">-->
-                        <!--<div class="row">-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>shop</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">new arrivals</a></li>-->
-                                        <!--<li><a href="products.html">men</a></li>-->
-                                        <!--<li><a href="products.html">women</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">brands</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>help</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>my company</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>account</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">login</a></li>-->
-                                        <!--<li><a href="products.html">create an account</a></li>-->
-                                        <!--<li><a href="products.html">create wishlist</a></li>-->
-                                        <!--<li><a href="products.html">my shopping bag</a></li>-->
-                                        <!--<li><a href="products.html">brands</a></li>-->
-                                        <!--<li><a href="products.html">create wishlist</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>my company</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">trends</a></li>-->
-                                        <!--<li><a href="products.html">sale</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                            <!--<div class="col1">-->
-                                <!--<div class="h_nav">-->
-                                    <!--<h4>popular</h4>-->
-                                    <!--<ul>-->
-                                        <!--<li><a href="products.html">new arrivals</a></li>-->
-                                        <!--<li><a href="products.html">men</a></li>-->
-                                        <!--<li><a href="products.html">women</a></li>-->
-                                        <!--<li><a href="products.html">accessories</a></li>-->
-                                        <!--<li><a href="products.html">kids</a></li>-->
-                                        <!--<li><a href="products.html">style videos</a></li>-->
-                                    <!--</ul>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="row">-->
-                            <!--<div class="col2"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                            <!--<div class="col1"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
+                <!--<div class="megapanel">-->
+                <!--<div class="row">-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>shop</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">new arrivals</a></li>-->
+                <!--<li><a href="products.html">men</a></li>-->
+                <!--<li><a href="products.html">women</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">brands</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>help</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>my company</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>account</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">login</a></li>-->
+                <!--<li><a href="products.html">create an account</a></li>-->
+                <!--<li><a href="products.html">create wishlist</a></li>-->
+                <!--<li><a href="products.html">my shopping bag</a></li>-->
+                <!--<li><a href="products.html">brands</a></li>-->
+                <!--<li><a href="products.html">create wishlist</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>my company</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">trends</a></li>-->
+                <!--<li><a href="products.html">sale</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col1">-->
+                <!--<div class="h_nav">-->
+                <!--<h4>popular</h4>-->
+                <!--<ul>-->
+                <!--<li><a href="products.html">new arrivals</a></li>-->
+                <!--<li><a href="products.html">men</a></li>-->
+                <!--<li><a href="products.html">women</a></li>-->
+                <!--<li><a href="products.html">accessories</a></li>-->
+                <!--<li><a href="products.html">kids</a></li>-->
+                <!--<li><a href="products.html">style videos</a></li>-->
+                <!--</ul>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                <!--<div class="col2"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--<div class="col1"></div>-->
+                <!--</div>-->
+                <!--</div>-->
                 <!--</li>-->
                 <li><a class="color2" href="#">Offer Zone</a>
                     <div class="megapanel">
@@ -1071,6 +1057,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="clearfix"></div>
     </div>
+</div>
+<!-- header-section-ends -->
+<div class="wrap">
     <div class="main-top">
         <div class="col-md-8 banner">
             <!-- start slider -->
@@ -1257,8 +1246,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="clearfix"></div>
     </div>
     <div class="device">
-        <div class="course_demo">
-            <div class="nbs-flexisel-container"><div class="nbs-flexisel-inner"><ul id="flexiselDemo" class="nbs-flexisel-ul" style="left: -227.8px;">
+        <div class="course_demo2">
+            <ul id="flexiselDemo2" class="nbs-flexisel-ul" style="left: -227.8px;">
                 <li class="nbs-flexisel-item" style="width: 227.8px;">
                     <div class="ipad text-center">
                         <img src="images/phone4.jpg" alt="">
@@ -1414,7 +1403,36 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li class="nbs-flexisel-item"><a class="cart" href="#">Add To Wishlist</a></li>
                     </ul>
                 </div>
-            </li></ul><div class="nbs-flexisel-nav-left" style="top: 130.5px;"></div><div class="nbs-flexisel-nav-right" style="top: 130.5px;"></div></div></div>
+            </li></ul>
+            <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $("#flexiselDemo2").flexisel({
+                        visibleItems: 5,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+            <script type="text/javascript" src="js/jquery.flexisel.js"></script>
         </div>
     </div>
     <!--Services header-->
@@ -1475,7 +1493,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 $("#flexiselDemo1").flexisel({
                     visibleItems: 7,
                     animationSpeed: 1000,
-                    autoPlay: false,
+                    autoPlay: true,
                     autoPlaySpeed: 3000,
                     pauseOnHover: true,
                     enableResponsiveBreakpoints: true,
@@ -1534,54 +1552,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="col-md-4 subscribe text-left">
                 <h3>Subscribe Us</h3>
                 <p>Get the latest updates & Offers right in your inbox.</p>
-                <input type="text" class="text" value="" onfocus="this.value = '';"
-                       onblur="if (this.value == '') {this.value = '';}">
-                <input type="submit" value="Subscribe">
             </div>
-            <div class="col-md-4 help text-right">
-
+            <div class="col-md-4 subscribe text-right" style="padding-right: 0; padding-left: 0;">
+                <input type="text" class="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
+                <input type="submit" value="Subscribe" style=" display: inline-block;">
             </div>
             <div class="clearfix"></div>
         </div>
         <div class="footer-middle" style="background-color: #eee">
-            <!--<div class="col-md-12 different-products">-->
-                <!--<ul>-->
-                    <!--<li class="first"> Help</li>-->
-                    <!-- - -->
-                    <!--<li><a href=""> Faqs </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> shipping </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> payments </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> cancellation & returns </a></li>-->
-                <!--</ul>-->
-                <!--<ul>-->
-                    <!--<li class="first"> PocketBazar</li>-->
-                    <!-- - -->
-                    <!--<li><a href="contact.html"> contact us </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> about us </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> careers </a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> blog </a></li>-->
-                    <!--|-->
-                <!--</ul>-->
-                <!--<ul>-->
-                    <!--<li class="first"> policies</li>-->
-                    <!-- - -->
-                    <!--<li>-->
-        <!--&lt;!&ndash;Terms & Conditions Modal Portion&ndash;&gt;-->
-                        <!--&lt;!&ndash; Trigger/Open The Modal &ndash;&gt;-->
-                        <!--<a class="tncBtn" href="javascript:void(0)">Terms & Conditions</a>-->
-                    <!--</li>-->
-                    <!--|-->
-                    <!--<li><a href=""> security policy</a></li>-->
-                    <!--|-->
-                    <!--<li><a href=""> privacy policy</a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
             <div style="text-align:center;color:black;width:100%;height: 100%;">
                 <div class="footerpad" style="width:100%;height: 100%;display: table;">
                     <div style="display: table-cell;text-align: left;border-left: 10px solid transparent; width: 276px;">
@@ -1638,54 +1616,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     </div>
 </div>
-<!--<div class="grid_4 latest_offer">-->
-    <!--<div class="container">-->
-        <!--<div class="content">-->
-            <!--<ul id="stack_yuda" class="stack stack&#45;&#45;yuda">-->
-                <!--<li class="stack__item">-->
-                    <!--<h3>In Spotlight</h3>-->
-                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/f/i/fitbit_1_1.jpg" alt="Tree 1" />-->
-                    <!--<div class="content-inner">-->
-                        <!--<p>Bingo Black U8 Bluetooth Watch</p>-->
-                        <!--<span>50 % off</span>-->
-                    <!--</div>-->
-                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/hollow-pu.html" title="order Now" class="button">Shop Now</a>-->
-                <!--</li>-->
-                <!--<li class="stack__item">-->
-                    <!--<h3>In Spotlight</h3>-->
-                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/c/a/camera4_1.jpg" alt="Tree 1" />-->
-                    <!--<div class="content-inner">-->
-                        <!--<p>Canon DSLR 550D Camera with Lens</p>-->
-                        <!--<span>Flash sale</span>-->
-                    <!--</div>-->
-                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/na9325sm02.html" title="order Now" class="button">Shop Now</a>-->
-                <!--</li>-->
-                <!--<li class="stack__item">-->
-                    <!--<h3>In Spotlight</h3>-->
-                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/h/e/helicopter_1.jpg" alt="Tree 1" />-->
-                    <!--<div class="content-inner">-->
-                        <!--<p>Toyhouse Metal Helicopter 3 Channel Infrared Remote Control with Gyroscope n LED Lights for Indoor (Red)</p>-->
-                        <!--<span>40% off</span>-->
-                    <!--</div>-->
-                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/featherlite-astro-office.html" title="order Now" class="button">Shop Now</a>-->
-                <!--</li>-->
-                <!--<li class="stack__item">-->
-                    <!--<h3>In Spotlight</h3>-->
-                    <!--<img src="http://apptha-demo.com/extensions/marketplace/market-ace/media//sliderimages/thumbs/sliderimages/b/a/bag.jpg" alt="Tree 1" />-->
-                    <!--<div class="content-inner">-->
-                        <!--<p>Adidas Backpack  (Night Shade/Ne.Green)</p>-->
-                        <!--<span>New year sale</span>-->
-                    <!--</div>-->
-                    <!--<a href="http://apptha-demo.com/extensions/marketplace/market-ace/ana-digi-watch.html" title="order Now" class="button">Shop Now</a>-->
-                <!--</li>-->
-            <!--</ul>-->
-            <!--<div class="controls">-->
-
-                <!--<button class="button button&#45;&#45;sonar button&#45;&#45;accept" data-stack="stack_yuda">Next</button>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</div>-->
 <script src="js/tnc.js" type="application/javascript"></script>
 <script>
     var modal = new tnc();

@@ -68,6 +68,7 @@ label{
 .header-right{
 	float:right;
 	position:relative;
+    margin-top: 18px;
 }
 .sign-up-right a{
 	position:absolute;
@@ -160,6 +161,8 @@ i.cart{
 }
 .navigation-strip{
 	background:#000000;
+	width: 90%;
+	margin: 0 auto;
 
 }
 .navigation-strip h4 {
@@ -171,7 +174,6 @@ i.cart{
 }
 .top-menu{
 	float:right;
-	margin-left: -10px;
 }
 .top-menu ul li{
 	display:inline-block;
@@ -743,6 +745,10 @@ i.go{
 	background: #FFF;
 	padding: 1% 3% 1% 3%;
 }
+.course_demo2{
+	background: #FFF;
+	padding: 1% 3% 1% 3%;
+}
 .nbs-flexisel-item img {
 	  width: 45%;
 	  cursor: pointer;
@@ -762,14 +768,17 @@ i.go{
   position: absolute;
   cursor: pointer;
   z-index: 100;
+    top: calc(50% - 30px);
 }
 .nbs-flexisel-nav-left {
   	left: -5em;
 	background: url(../images/img-sprite.png) 0px -52px no-repeat;
+    top: calc(50% - 30px);
 }
 .nbs-flexisel-nav-right {
 	right: -5em;
 	background: url(../images/img-sprite.png) -60px -52px no-repeat;
+    top: calc(50% - 30px);
 }
 .client{
 	width:70%;
@@ -823,7 +832,7 @@ i.cart-1 {
 	background: url('../images/img-sprite.png') no-repeat -42px -31px;
 	display: inline-block;
 	cursor: pointer;
-	margin: 0 3px 0 2em;
+	margin: 0 3px 0 1.5em;
 }
 i.heart {
 	width: 20px;
@@ -832,7 +841,7 @@ i.heart {
 	display: inline-block;
 	cursor: pointer;
 	vertical-align: middle;
-	margin: 0 4px 0 1em;
+	margin: 0 4px 0 0.5em;
 }
 .clients {
 	margin: 3em 0;
@@ -2859,6 +2868,7 @@ p.back{
 	}
 	.navigation-strip {
 		padding: 1.4em 0.8em;
+		width: 90%;
 	}
 	.top-menu ul li a {
 		font-size: 13px;
@@ -2940,6 +2950,9 @@ p.back{
 }
 @media screen and (max-width: 1280px) {
 	.wrap {
+		width: 93%;
+	}
+	.navigation-strip{
 		width: 93%;
 	}
 	.subscribe input[type="text"] {
@@ -3037,6 +3050,9 @@ padding: 1em 0 0 0;
 		min-height: 344px;
 		float:left;
 	}
+	.navigation-strip {
+		width: 95%;
+	}
 	.banner {
 		width: 72%;
 		float:left;
@@ -3119,9 +3135,11 @@ padding: 1em 0 0 0;
 	}
 	.nbs-flexisel-nav-left {
 		left: -3.5em;
+        top: calc(50% - 30px);
 	}
 	.nbs-flexisel-nav-right{
 		right: -3.5em;
+        top: calc(50% - 30px);
 	}
 	.ipad {
 		width: 90%;
@@ -3291,7 +3309,7 @@ padding: 1em 0 0 0;
 		padding: 0.7em 1em;
 	}
 	.labelTop {
-		width: 41%;
+		width: 45%;
 	}
 	.forgetit {
 		padding: 25px 2em 25px 11px;
@@ -3301,17 +3319,17 @@ padding: 1em 0 0 0;
 		padding: 0 12px;
 	}
 	.cus_info_wrap input[type="text"] {
-		width: 59%;
+		width: 55%;
 	}
 	.cus_info_wrap select {
-		width: 59%;
+		width: 55%;
 	}
 	.cus_info_wrap input[type="password"] {
-		width: 59%;
+		width: 55%;
 	}
 	.cus_info_wrap textarea{
-		min-width: 59%;
-		max-width: 59%;
+		min-width: 55%;
+		max-width: 55%;
 	}
 	.checkbox {
 		width: 80%;
@@ -3352,7 +3370,7 @@ padding: 1em 0 0 0;
 		width: 80%;
 	}
 	.forgetit input[type="text"] {
-		width: 82%;
+		width: 75%;
 	}
 	p.required {
 		font-size: 10px;
@@ -3363,7 +3381,7 @@ padding: 1em 0 0 0;
 }
 @media screen and (max-width: 800px) {
 	.forgetit input[type="text"] {
-		width: 75%;
+		width: 70%;
 	}
 	.checkbox i {
 		position: absolute;
@@ -3517,7 +3535,7 @@ padding: 1em 0 0 0;
 		margin-right: 5px;
 	}
 	.header-right ul li.login {
-		padding: 0em 3.5em 0 0;
+
 	}
 	.header-right ul li.last {
 		padding: 1px 7px;
@@ -3541,14 +3559,17 @@ padding: 1em 0 0 0;
 	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 		width: 50px;
 		height: 50px;
+        top: calc(50% - 30px);
 	}
 	.nbs-flexisel-nav-left {
 		left: -2em;
 		background: url(../images/img-sprite.png) -5px -57px no-repeat;
+        top: calc(50% - 30px);
 	}
 	.nbs-flexisel-nav-right {
 		right: -2em;
 		background: url(../images/img-sprite.png) -65px -56px no-repeat;
+        top: calc(50% - 30px);
 	}
 	.contact-box {
 		width: 85%;
@@ -3623,7 +3644,7 @@ padding: 1em 0 0 0;
 		padding: 1em 1em;
 	}
 	.navigation-strip h4 {
-		display: none;
+
 	}
 	.navigation-strip {
 		padding: 1.4em 0.2em;
@@ -3650,6 +3671,9 @@ margin: 0;
 }
 }	
 @media screen and (max-width: 768px) {
+    .header {
+        margin-bottom: 5px;
+    }
 	.top-menu {
 		float: none;
 	}
@@ -3771,7 +3795,8 @@ margin: 0;
 		float: none;
 	}
 	.header-right {
-		float: none;
+		float: right;
+        margin-top: 7px;
 	}
 	.sign-up-right a {
 		top: 10%;
@@ -3904,10 +3929,10 @@ margin: 0;
 		width: 35%;
 	}
 	i.cart-1 {
-		margin: 0 3px 0 2.2em;
+		margin: 0 3px 0 6em;
 	}
 	i.heart {
-		margin: 0 4px 0 1.1em;
+		margin: 0 4px 0 4.8em;
 	}
 	.different-products ul li a {
 		font-size: 12px;
@@ -3968,13 +3993,13 @@ margin: 0;
 		font-size: 1.8em;
 	}
 	.r-discount span {
-		letter-spacing: 2.2em;
+		letter-spacing: 2em;
 	}
 	.sign-up-right a {
 		right: 41%;
 	}
 	.logo {
-		width: 33%;
+		width: 32%;
 	}
 	.search2 input[type="text"] {
 		font-size: 12px;
@@ -4003,6 +4028,7 @@ margin: 0;
 	}
 	.checkbox{
 		margin:0;
+        padding-left: 65px;
 	}
 	.registration_left:first-child {
 		margin-bottom: 2em;
@@ -4082,6 +4108,7 @@ margin: 0;
 	}
 	.navigation-strip {
 		padding: 0;
+        width: 92% !important;
 	}
 	.brand-content-bar {
 		padding: 1em 0.5em;
@@ -4137,14 +4164,17 @@ margin: 0;
 	.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
 		width: 42px;
 		height: 42px;
+        top: calc(50% - 30px);
 	}		
 	.nbs-flexisel-nav-left {
 		left: -1em;
 		background: url(../images/img-sprite.png) -6px -62px no-repeat;
+        top: calc(50% - 30px);
 	}
 	.nbs-flexisel-nav-right {
 		right: -1em;
 		background: url(../images/img-sprite.png) -67px -62px no-repeat;
+        top: calc(50% - 30px);
 	}
 	i.cart-1 {
 		margin: 0 3px 0 3.6em;
@@ -4379,4 +4409,11 @@ li.active a {
 }
 .follow.text-left  {
 	display: none;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #3498db;
+    box-shadow: 0 1px 0 0 #3498db
+}
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    transition: all .3s
 }

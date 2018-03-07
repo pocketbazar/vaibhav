@@ -16,7 +16,7 @@
     height: 40px;
     float: right;
     top: 17px;
-    width: 64%;
+    width: 100%;
 }
 .skip-content{
     display: none;
@@ -148,4 +148,22 @@ button {
     top: 0px !important;
     width: 100% !important;
     z-index: 200;
+}
+@media screen and (max-width: 320px) {
+    .disp{
+        display: none;
+    }
+    .search-button {
+        width: 53px !important;
+        padding-right: 0 !important;
+    }
+}
+@media screen and (max-width: 480px) {
+    .disp{
+        display: none;
+    }
+    .search-button {
+        width: 53px !important;
+        padding-right: 0 !important;
+    }
 }
